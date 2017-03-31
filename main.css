@@ -1,0 +1,250 @@
+@font-face {
+	font-family: FELLTGothic;
+	src: url(fonts/fellt.ttf);
+}
+
+body {
+	overflow: hidden;
+}
+
+.wrap {
+	overflow: hidden;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.container {
+	display: flex;
+	flex-flow: column wrap;
+	transform: translate(0, 0);
+	transition: .5s;
+}
+
+.girl1, .girl2, .girl3, .girl4, .girl5, .girl6, .girl7, .girl8, .girl9, .girl10, .girl11, .girl12, .girl13, .girl14, .girl15, .girl16, .girl17, .girl18, .girl19, .girl20 {
+	display: block;
+	visibility: hidden;
+	position: relative;
+	width: 350px;
+	height: 350px;
+	padding: 140px 60px 0 60px;
+	width: 230px;
+	opacity: 0.96;
+	font-family: FELLTGothic;
+	font-size: 45px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 40px;
+	transition: all .3s ease-in-out;
+}
+
+.m1:hover .girl1, .m2:hover .girl2, .m3:hover .girl3, .m4:hover .girl4, .m5_1:hover .girl5, .m5_2:hover .girl6, .m7_1:hover .girl7, .m7_2:hover .girl8, .m8:hover .girl9, .m9:hover .girl10, .m10:hover .girl11, .m11:hover .girl12, .m12:hover .girl13, .m13:hover .girl14, .m14:hover .girl15, .m15:hover .girl16, .m17:hover .girl17, .m18:hover .girl18, .m19:hover .girl19, .m20:hover .girl20 {
+	background: rgba(255,38,38,0.65);
+	visibility: visible;
+	cursor: pointer;
+}
+
+.m1 {
+	background-image: url(img/q1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 350px;
+}
+
+.m2 {
+	background-image: url(img/q2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 350px;
+}
+
+.m3 {
+	background-image: url(img/q3.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 350px;
+}
+
+.m4 {
+	background-image: url(img/q4.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 350px;
+}
+
+.m5_1 {
+	background-image: url(img/q5.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 350px;
+}
+
+.m5_2 {
+	background-image: url(img/q6.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 350px;
+}
+
+.m6 {
+	background-image: url(img/q10.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 700px;
+}
+
+.m7_1 {
+	background-image: url(img/q7.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 470px;
+}
+
+.m7_2 {
+	background-image: url(img/q8.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 350px;
+}
+
+.m8 {
+	background-image: url(img/q9.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 350px;
+}
+
+.m9 {
+	background-image: url(img/q11.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 350px;
+}
+
+.m10 {
+	background-image: url(img/q12.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 350px;
+}
+
+.m11 {
+	background-image: url(img/q13.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 470px;
+}
+
+.m12 {
+	background-image: url(img/q14.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 350px;
+}
+
+.m13 {
+	background-image: url(img/q15.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 350px;
+}
+
+.m14 {
+	background-image: url(img/q16.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 350px;
+}
+
+.m15 {
+	background-image: url(img/q10.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 350px;
+}
+
+.m17 {
+	background-image: url(img/q3.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 350px;
+}
+
+.m18 {
+	background-image: url(img/q2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 350px;
+}
+
+.m19 {
+	background-image: url(img/q1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 350px;
+}
+
+.m20 {
+	background-image: url(img/q4.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 350px;
+}
+
+.m1, .m2, .m3, .m4, .m8, .m9, .m10, .m11, .m12, .m13, .m14, .m15, .m17, .m18, .m19, .m20 {
+	display: flex;
+	height: 350px;
+	width: 350px;
+	overflow: hidden;
+}
+
+.m5, .m7 {
+	display: flex;
+	height: 350px;
+	width: 700px;
+	overflow: hidden;
+}
+
+.m5_1, .m5_2 {
+	background-color: #444;
+	display: flex;
+	height: 350px;
+	width: 350px;
+	overflow: hidden;
+}
+
+.m7_1, .m7_2 {
+	background-color: #444;
+	display: flex;
+	height: 350px;
+	width: 350px;
+	overflow: hidden;
+}
+
+.m6 {
+	display: flex;
+	height: 700px;
+	width: 700px;
+	overflow: hidden;
+}
+
+.m1, .m2, .m3, .m4, .m8, .m9, .m10, .m11, .m12, .m13, .m14, .m15, .m17, .m18, .m19, .m20, :hover .girl{
+	display: block;
+}
+
+div img {
+	position: relative;
+	top: 170px;
+	left: 130px;
+}
+
+.video-girl {
+	position: absolute;
+	top: 830px;
+	left: 485px;
+	text-transform: uppercase;
+	font-family: FELLTGothic;
+	font-size: 30px;
+	color: #FFFFFF;
+	letter-spacing: 5.9px;
+}
